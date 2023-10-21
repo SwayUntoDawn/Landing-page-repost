@@ -1,0 +1,189 @@
+body {
+
+    font-family: sans-serif;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+}
+
+
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    margin:auto;
+    flex-basis: auto;  
+}
+
+
+.top h1 {
+
+    font-size: 18px;
+    
+
+
+}
+
+
+
+
+.top ul {
+
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    
+
+
+}
+
+.top a {
+
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+.top a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+
+.hero-main {
+
+    display: flex;
+
+
+}
+
+
+.main {
+
+   padding: 0 120px 40px;
+
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container_detail {
+    padding-right: 30px;
+}
+.container p{
+  color: gray;
+  margin: auto;
+}
+
+.container
+.btn {
+    margin-top: 10px;
+    color:white;
+    background-color:#3882F6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+}
+.container .container_image {
+    display: grid;
+    place-items: center;
+    background-color: #797979;
+    width: 400px;
+    
+}
+.section-hero {
+    padding: 20px 180px 50px;
+    background: white;
+}
+
+
+.section-hero h2 {
+    text-align: center;
+    background: white;
+    color: #1f2937;
+}
+
+.section-hero .boxes{
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
+
+
+.box .element {
+    border: #3882F6 5px solid;
+    border-radius: 15px;
+    width: 140px;
+    height: 140px;
+}
+.box .detail {
+    color: #1F2937;
+    padding-top: 5px;
+}
+
+.section-quote {
+
+    background-color: rgba(231, 231, 231, 0.959);
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: lighter;
+}
+quote > div {
+    font-style: normal;
+    float: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action  {
+
+    
+    height: 10vh;
+    background-color: white;
+    padding-top: 40px;
+
+}
+
+.action .box_element {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+.box_element span {
+    font-weight:  bolder;
+    font-size: 20px;
+}
+
+.action .btn {
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
